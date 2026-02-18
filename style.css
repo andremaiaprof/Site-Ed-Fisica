@@ -1,5 +1,6 @@
 .container {
  margin-top: 50px;
+ background-color: black;
 }
 .containerlinks {
  display: flex;
@@ -47,4 +48,53 @@ a {
  text-align: center;
  margin: 10px;
  color: black;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 10%;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #007bff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+.btn-nav {
+    background: #007bff;
+    color: #fff !important;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
 }
